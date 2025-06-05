@@ -1,0 +1,85 @@
+*{
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(/amanda-chapman-0j0rOPiZuPY-unsplash.jpg);
+    background-repeat: stretch;
+    background-size: cover;
+}
+.headers, .footers{
+    background-color: aliceblue;
+}
+
+.heading, .sub_heading, p, .red {
+    line-height: 2;
+    text-transform: uppercase;
+    margin-left: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    flex-flow: row;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+button {
+    margin-top: 10px;
+    padding: 2px;
+    height: 30px;
+    width: 140px;
+    text-wrap: nowrap;
+    color: blue;
+    text-transform: uppercase;
+    position: static;
+    margin-left: 3cqw;
+    border-radius: 4px;
+    background-color: lightblue;
+}
+fieldset {
+    border: none;
+}
+.overall {
+    display: flex;
+    
+}
+.red {
+    color: red;
+    margin: 2px;
+}
+
+.sign-up-container {
+    background-color: white;
+    height: 100vh;
+}
+.pius-logo {
+    margin-top: 50%;
+}
+.login {
+    margin-left: 3cqw;
+}
+
+:invalid input{
+    border : 2px solid red;
+}
+
+:valid input{
+    border-radius: 5%;
+    border: 2px solid green;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+:focus input{
+    border: 2px transparent blue;
+}
